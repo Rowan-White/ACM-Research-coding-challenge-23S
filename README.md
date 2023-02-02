@@ -6,4 +6,4 @@ My goal was to visualize the correlation between each property, find and pick tw
 
 ## Correlation
 
-I used the visualization from https://medium.com/@sebastiannorena/finding-correlation-between-many-variables-multidimensional-dataset-with-python-5deb3f39ffb3
+I used the visualization created by [Sebastian Norena](https://medium.com/@sebastiannorena/finding-correlation-between-many-variables-multidimensional-dataset-with-python-5deb3f39ffb3)
