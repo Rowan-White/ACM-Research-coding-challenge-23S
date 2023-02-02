@@ -23,3 +23,9 @@ The following steps were performed to create a model:
 4. Test the accuracy of the model using both the training and the testing data
 
 [This youtube tutorial](https://www.youtube.com/watch?v=29ZQ3TDGgRQ) and it's [associated GitHub](https://github.com/dataprofessor/first-ml) were extremely helpful in creating the models. As was [this article](https://towardsdatascience.com/which-machine-learning-model-to-use-db5fdf37f3dd) in choosing what type of model to use.
+
+---
+
+## Model Results
+
+The model trained on the two high correlation properties performed much better than the model trained with all of the properties. Therefore, it is easier to predict the classification of a star using just 'Absolute Magnitude' and 'Radius' than it is to actually take in all of the properties. Although it might seem like having more imformation would be better, because 'Absolute Magnitude' and 'Radius' are so strongly correlated with 'Star type', other variables simply confuse the model and create connections that aren't there. At least with simple models. With this in mind, because of the 96% correlation to between 'Star type' and 'Absolute Magnitude' it may be more accurate to bucket the magnitudes into ranges and assign them to a specific star type, which wouldn't even necessiate a machine learning model
