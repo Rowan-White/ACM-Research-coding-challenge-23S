@@ -28,4 +28,12 @@ The following steps were performed to create a model:
 
 ## Model Results
 
-The model trained on the two high correlation properties performed much better than the model trained with all of the properties. Therefore, it is easier to predict the classification of a star using just 'Absolute Magnitude' and 'Radius' than it is to actually take in all of the properties. Although it might seem like having more imformation would be better, because 'Absolute Magnitude' and 'Radius' are so strongly correlated with 'Star type', other variables simply confuse the model and create connections that aren't there. At least with simple models. With this in mind, because of the 96% correlation to between 'Star type' and 'Absolute Magnitude' it may be more accurate to bucket the magnitudes into ranges and assign them to a specific star type, which wouldn't even necessiate a machine learning model
+The model trained on the two high correlation properties performed much better than the model trained with all of the properties. The training accuracy for the high correlation model was 52.60% while the training accuracy for the other model was only 36.46%. Likewise, the testing accuracy for the high correlation model was 39.58% while the testing accuracy for the other model was 25%.
+
+![image](https://github.com/Rowan-White/ACM-Research-coding-challenge-23S/blob/f33b32c6692aba319b75ddc017b50012c8a5a425/images/Machine-Learning-Models-Accuracy.png)
+
+---
+
+## Conclusion
+
+'Absolute Magnitude' and 'Radius' are both strongly correlated with 'Star Type'. Because of this, it is more accurate to predict the classification of a star using just 'Absolute Magnitude' and 'Radius' than it is to actually take in all of the properties. Although it might seem like having more imformation would be better, because 'Absolute Magnitude' and 'Radius' are so strongly correlated with 'Star type', other variables simply confuse the a simple model and create connections that aren't there. With this in mind, because of the 96% correlation to between 'Star type' and 'Absolute Magnitude' it may actually be more accurate to just divide the magnitudes into ranges and assign them to a specific star type, which wouldn't even necessiate a machine learning model.
