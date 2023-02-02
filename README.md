@@ -14,7 +14,7 @@ Their numeric correlations are -0.96 for magnitude and .66 for radius, with -1 b
 
 ---
 
-##Creating the Machine Learning Models
+## Creating the Machine Learning Models
 
 The following steps were performed to create a model:
 1. Split x and y, with y equaling just the 'Star Type' column and x equaling the properties I want to use to predict 'Star type'. The first model uses 'Absolute magnitude(Mv)' and 'Radius(R/Ro)' while the second model all properties besides 'Star type'.
